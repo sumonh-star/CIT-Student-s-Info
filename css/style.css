@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
 }
 .container{
     background-color: rgba(199, 134, 37, 0.23);
@@ -64,7 +66,7 @@
 .nav-menu ul li a{
     text-decoration: none;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color:black;
     transition: .2s;
     text-transform: uppercase;
@@ -106,11 +108,12 @@
     font-size: 20px;
     width: 100px;
     flex:1;
+    font-weight:400;
 }
 .student-bio p{
     width: 120px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .arrow-box{
     width: 100%;
